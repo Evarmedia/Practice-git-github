@@ -14,7 +14,8 @@ int main(){
 	scanf("%f", &f ); 
 	printf("%f\n", f); 
 	
-	fflush(stdio.h);
+	fflush(stdin);
+
 	scanf("%c", &c); 
 	printf("%c" , c);
 	
