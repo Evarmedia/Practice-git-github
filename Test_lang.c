@@ -1,7 +1,14 @@
 #include <stdio.h> 
 int main() {
-	char x[100]; 
-	gets(x);
-	printf("You entered this: %s ", x ); 
+	int num;
+	
+	printf("Enter a number : ");
+	scanf("%d", &num);
+		
+	if(num % 2 == 0){
+	printf("You entered an even num");
+}
+	
+
 	return 0;
 }
