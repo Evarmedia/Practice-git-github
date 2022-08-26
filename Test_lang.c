@@ -2,10 +2,11 @@
 int main() {
 	int num;
 	
-	printf("Enter a number : ");
+	printf("Enter any random number : ");
 	scanf("%d", &num);
 		
 	if(num % 2 == 0){
+
 	printf("You entered an even num");
 }
 	
