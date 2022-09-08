@@ -12,7 +12,7 @@ int main(){
 	printf("%f\n", f);
 	
 	scanf("%f", &f ); 
-	printf("%f\n", f); 
+	printf("you put %f\n", f); 
 	
 	fflush(stdin);
 
